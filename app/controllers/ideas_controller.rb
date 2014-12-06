@@ -31,7 +31,7 @@ class IdeasController < ApplicationController
         format.html { redirect_to @idea, notice: 'Idea was successfully created.' }
         format.json { render :show, status: :created, location: @idea }
       else
-        format.html { render :new }
+        format.html { render :new , alert: 'neulozilo sa'}
         format.json { render json: @idea.errors, status: :unprocessable_entity }
       end
     end

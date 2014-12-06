@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'infofgdgfggffdgfgfdgfdfgfd' , to: 'pages#info', as:'infooo'
+  devise_for :users
+  get 'info' , to: 'pages#info', as:'infooo'
 
   #root :to => 'ideas#index'
   root :to => redirect('/ideas')
