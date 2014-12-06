@@ -47,3 +47,4 @@ gem 'spring',        group: :development
 
 gem 'pry'
 gem 'devise'
+gem 'gravtastic'

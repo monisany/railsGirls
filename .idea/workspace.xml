@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f5ea348-fe56-48d5-8810-2794ddd3e971" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20141206165000_add_name_to_users.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ideas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/ideas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ideas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/ideas/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ideas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/ideas/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
     </list>
     <ignored path="railsgirls.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +34,8 @@
       <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -52,7 +45,17 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.20487805" vertical-offset="0" max-vertical-offset="846">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="990">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -146,6 +149,7 @@
         <option value="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
@@ -792,14 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
@@ -808,10 +804,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="990">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20487805" vertical-offset="0" max-vertical-offset="846">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
           <folding />
         </state>
       </provider>
